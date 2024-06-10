@@ -1,8 +1,11 @@
 import React from "react";
-
+import vegpicados1 from "../assets/imgVegetales/vegPicados1.png";
+import cebolla1 from "../assets/imgVegetales/cebolla1.png";
 function ContactUs() {
     return (
-        <div className="p-20" >
+        <div className="p-20 relative overflow-hidden" >
+            <img src={vegpicados1} className="absolute w-96 right-0 " />
+            <img src={cebolla1} className="absolute w-96 -left-20 bottom-0 -rotate-90" />
             <div className="flex justify-center gap-16">
                 <div className="max-w-xs  p-2 w-1/3">
                     <label className="form-control w-full max-w-xs">
