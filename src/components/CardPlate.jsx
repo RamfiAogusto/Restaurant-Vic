@@ -1,16 +1,20 @@
 import React from "react";
 import back from "../assets/281.jpg";
 import burger from "../assets/tasty-burger-removebg-preview.png";
-function CardPlate() {
+function CardPlate({ precio="$500.00", img = burger }) {
+    
+    
     return (
         <div
             class="card min-w-64 max-w-64 shadow-xl gap-0"
             style={{ backgroundImage: `url(${back})`, backgroundSize: "cover" }}
         >
-            <figure>
-                <img src={burger} alt="Shoes" />
+            <figure className="p-4">
+                <img src={img} alt="Shoes" />
             </figure>
-            <div className="absolute font-bold top-3 left-3 text-xl">$500.00</div>
+            <div className="absolute font-bold top-3 left-3 text-xl bg-black bg-opacity-45 rounded-sm p-1">
+                {precio}
+            </div>
             <div class="card-body pt-0 pb-5 px-4 ">
                 <h2 class="card-title">
                     Burger

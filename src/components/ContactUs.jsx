@@ -40,18 +40,18 @@ function ContactUs() {
                     ></textarea>
                     {/* --------button send--- */}
                     <div className="form-control mt-6">
-                        <button className="btn btn-primary">Login</button>
+                        <button className="btn btn-primary">Send</button>
                     </div>
                 </div>
                 {/* ------------- */}
                 <div className="p-2 w-1/3">
-                    <h3 className="text-3xl font-bold mb-4" >Contact us</h3>
+                    <h2 className="text-3xl font-bold mb-4" >Contact us</h2>
                     <h4 className="mb-2 text-xl">Contact us in a convenient way:</h4>
-                    <span className="text-lg">Phone:</span>
+                    <span className="text-lg dorado font-semibold">Phone:</span>
                     <p className="mb-2">809-809-8099</p>
-                    <span className="text-lg">schedule:</span>
+                    <span className="text-lg dorado font-semibold">schedule:</span>
                     <p className="mb-2">8:30 - 23:00</p>
-                    <button className="btn btn-primary">Send mail</button>
+                    <button className="btn btn-primary">Go to mail</button>
                 </div>
             </div>
         </div>

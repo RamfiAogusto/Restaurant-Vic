@@ -1,6 +1,13 @@
 import React, { useRef, useEffect } from "react";
 import CardPlate from "./CardPlate";
 import cilantro from "../assets/imgVegetales/cilantro1.png";
+/* ---------imágenes platos-------- */
+
+import ensalada from "../assets/ensalada.png";
+import pastas from "../assets/pastas.png";
+import pizza from "../assets/pizza.png";
+import platecarne from "../assets/platecarne.png";
+
 function MenuHome() {
     const inputRef = useRef(null);
     useEffect(() => {
@@ -21,8 +28,8 @@ function MenuHome() {
                     type="radio"
                     name="my_tabs_2"
                     role="tab"
-                    className="tab max-w-32 min-w-32"
-                    aria-label="Tab 1"
+                    className="tab max-w-32 min-w-32 font-bold text-lg"
+                    aria-label="Burger"
                     ref={inputRef}
                 />
                 <div
@@ -45,19 +52,19 @@ function MenuHome() {
                     type="radio"
                     name="my_tabs_2"
                     role="tab"
-                    className="tab max-w-32 min-w-32"
-                    aria-label="Tab 2"
+                    className="tab max-w-32 min-w-32 font-bold text-lg"
+                    aria-label="Meats"
                 />
                 <div
                     role="tabpanel"
                     className="tab-content bg-base-100 border-base-300 rounded-box p-6"
                 >
                     <div className="flex gap-4 justify-center flex-wrap">
-                        <CardPlate />
-                        <CardPlate />
-                        <CardPlate />
-                        <CardPlate />
-                        <CardPlate />
+                        <CardPlate img={platecarne} />
+                        <CardPlate img={platecarne} />
+                        <CardPlate img={platecarne} />
+                        <CardPlate img={platecarne} />
+                        <CardPlate img={platecarne} />
                     </div>
                 </div>
 
@@ -65,20 +72,60 @@ function MenuHome() {
                     type="radio"
                     name="my_tabs_2"
                     role="tab"
-                    className="tab max-w-32 min-w-32"
-                    aria-label="Tab 3"
+                    className="tab max-w-32 min-w-32 font-bold text-lg"
+                    aria-label="Pizza"
                 />
                 <div
                     role="tabpanel"
                     className="tab-content bg-base-100 border-base-300 rounded-box p-6"
                 >
                     <div className="flex gap-4 justify-center flex-wrap">
-                        <CardPlate />
-                        <CardPlate />
-                        <CardPlate />
-                        <CardPlate />
-                        <CardPlate />
-                        <CardPlate />
+                        <CardPlate img={pizza} />
+                        <CardPlate img={pizza} />
+                        <CardPlate img={pizza} />
+                        <CardPlate img={pizza} />
+                        <CardPlate img={pizza} />
+                        <CardPlate img={pizza} />
+                    </div>
+                </div>
+
+                <input
+                    type="radio"
+                    name="my_tabs_2"
+                    role="tab"
+                    className="tab max-w-32 min-w-32 font-bold text-lg"
+                    aria-label="Salads"
+                />
+                <div
+                    role="tabpanel"
+                    className="tab-content bg-base-100 border-base-300 rounded-box p-6"
+                >
+                    <div className="flex gap-4 justify-center flex-wrap">
+                        <CardPlate img={ensalada} />
+                        <CardPlate img={ensalada} />
+                        <CardPlate img={ensalada} />
+                        <CardPlate img={ensalada} />
+                        <CardPlate img={ensalada} />
+                    </div>
+                </div>
+
+                <input
+                    type="radio"
+                    name="my_tabs_2"
+                    role="tab"
+                    className="tab max-w-32 min-w-32 font-bold text-lg"
+                    aria-label="Pasta"
+                />
+                <div
+                    role="tabpanel"
+                    className="tab-content bg-base-100 border-base-300 rounded-box p-6"
+                >
+                    <div className="flex gap-4 justify-center flex-wrap">
+                        <CardPlate img={pastas} />
+                        <CardPlate img={pastas} />
+                        <CardPlate img={pastas} />
+                        <CardPlate img={pastas} />
+                        <CardPlate img={pastas} />
                     </div>
                 </div>
             </div>

@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bgDorado{
+    background-color: rgb(179, 103, 17);
+}
+h2{
+    color: rgb(179, 103, 17) ;
+}
+.dorado{
+    color: rgb(179, 103, 17);
+}
+
+.btn{
+    background-color: transparent;
+    border-color:rgb(179, 103, 17);
+    color: white;
+    border-radius: 0;
+}
+
+.btn:hover{
+    background-color: rgb(179, 103, 17);
+    border-color: rgb(179, 103, 17);
+}

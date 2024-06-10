@@ -15,7 +15,7 @@ function Opinions() {
                                 </div>
                             </div>
                             <div>
-                                <h2 className="card-title">Card title!</h2>
+                                <h3 className="card-title">Card title!</h3>
                                 <div className="flex gap-1">
                                     <div className="mask mask-star-2 bg-yellow-500 w-4 h-4"></div>
                                     <div className="mask mask-star-2 bg-yellow-500 w-4 h-4"></div>
@@ -37,7 +37,7 @@ function Opinions() {
                                 </div>
                             </div>
                             <div>
-                                <h2 className="card-title">Card title!</h2>
+                                <h3 className="card-title">Card title!</h3>
                                 <div className="flex gap-1">
                                     <div className="mask mask-star-2 bg-yellow-500 w-4 h-4"></div>
                                     <div className="mask mask-star-2 bg-yellow-500 w-4 h-4"></div>
@@ -59,7 +59,7 @@ function Opinions() {
                                 </div>
                             </div>
                             <div>
-                                <h2 className="card-title">Card title!</h2>
+                                <h3 className="card-title">Card title!</h3>
                                 <div className="flex gap-1">
                                     <div className="mask mask-star-2 bg-yellow-500 w-4 h-4"></div>
                                     <div className="mask mask-star-2 bg-yellow-500 w-4 h-4"></div>
