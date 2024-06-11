@@ -5,7 +5,7 @@ function Hero() {
         <div className="relative">
             
             <div
-                className="hero min-h-screen justify-start px-20"
+                className="hero min-h-screen justify-start px-8 lg:px-20"
                 style={{
                     backgroundImage: `url(${back})`,
                 }}

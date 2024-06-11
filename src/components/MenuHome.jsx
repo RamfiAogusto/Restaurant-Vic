@@ -17,10 +17,10 @@ function MenuHome() {
     }, []);
 
     return (
-        <div className="px-20 py-11 relative overflow-visible">
+        <div className="px-4 lg:px-20 py-11 relative overflow-visible">
             <img
                 src={cilantro}
-                className="absolute z-10 w-96 -top-32 -right-32 -rotate-90 blur-sm"
+                className="absolute -right-60 top-72 z-10 w-96 lg:-top-32 lg:-right-32 -rotate-90 blur-sm"
             />
             <h2 className="text-5xl mb-6 font-bold">Menu</h2>
             <div role="tablist" className="tabs tabs-lifted ">
@@ -89,45 +89,7 @@ function MenuHome() {
                     </div>
                 </div>
 
-                <input
-                    type="radio"
-                    name="my_tabs_2"
-                    role="tab"
-                    className="tab max-w-32 min-w-32 font-bold text-lg"
-                    aria-label="Salads"
-                />
-                <div
-                    role="tabpanel"
-                    className="tab-content bg-base-100 border-base-300 rounded-box p-6"
-                >
-                    <div className="flex gap-4 justify-center flex-wrap">
-                        <CardPlate img={ensalada} />
-                        <CardPlate img={ensalada} />
-                        <CardPlate img={ensalada} />
-                        <CardPlate img={ensalada} />
-                        <CardPlate img={ensalada} />
-                    </div>
-                </div>
 
-                <input
-                    type="radio"
-                    name="my_tabs_2"
-                    role="tab"
-                    className="tab max-w-32 min-w-32 font-bold text-lg"
-                    aria-label="Pasta"
-                />
-                <div
-                    role="tabpanel"
-                    className="tab-content bg-base-100 border-base-300 rounded-box p-6"
-                >
-                    <div className="flex gap-4 justify-center flex-wrap">
-                        <CardPlate img={pastas} />
-                        <CardPlate img={pastas} />
-                        <CardPlate img={pastas} />
-                        <CardPlate img={pastas} />
-                        <CardPlate img={pastas} />
-                    </div>
-                </div>
             </div>
         </div>
     );

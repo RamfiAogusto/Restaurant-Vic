@@ -12,8 +12,8 @@ function TopList() {
                 <CardPlate precio="" img={platecarne}/>
                 <CardPlate precio=""/>
                 <CardPlate precio="" img={ensalada}/>
-                <img src={imgtomate1} className="absolute -left-96 blur-sm" />
-                <img src={imgtomate1} className="absolute -right-36 top-96 -z-10 rotate-45 w-52" />
+                <img src={imgtomate1} className="absolute -top-56 -left-16 lg:-left-96 blur-sm" />
+                <img src={imgtomate1} className="absolute -bottom-20  left-24 lg:-right-36 lg:top-96 -z-10 rotate-45 w-52" />
             </div>
         </div>
     );

@@ -7,7 +7,7 @@ import vegpicados1 from "../assets/imgVegetales/vegpicados2.png";
 
 function ReservationHome() {
     return (
-        <div className="relative overflow-visible">
+        <div className="relative overflow-visible lg:px-20">
             <img
                 src={cebolla1}
                 className="absolute w-96 -top-28 -left-36 blur-sm rotate-90"
@@ -18,9 +18,9 @@ function ReservationHome() {
             />
             <img
                 src={vegpicados1}
-                className="absolute w-96 -bottom-72 right-0 rotate-45 -z-10"
+                className="absolute w-96 -right-40 -bottom-52 lg:-bottom-72 lg:right-0 rotate-45 -z-10"
             />
-            <div className="hero min-h-screen px-20">
+            <div className="hero min-h-screen">
                 <div className="hero-content flex-col lg:flex-row-reverse gap-0">
                     <img src={imgPlate} className="lg:min-w-[700px]" />
                     <div>

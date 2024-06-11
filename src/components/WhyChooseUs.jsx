@@ -3,16 +3,16 @@ import tomate1 from "../assets/imgVegetales/tomate1.png";
 import cilantro from "../assets/imgVegetales/cilantro1.png";
 function WhyChooseUs() {
     return (
-        <div className="relative">
+        <div className="relative lg:px-20">
             <img
                 src={cilantro}
-                className="absolute -left-32 -top-32 w-96 blur-sm"
+                className="absolute -left-72 lg:-left-32 -top-32 w-96 blur-sm"
             />
             <img
                 src={tomate1}
-                className="absolute -right-32 -bottom-32 w-96 blur-sm"
+                className="absolute -right-60 lg:-right-32 -bottom-32 w-96 blur-sm"
             />
-            <div className="p-20">
+            <div>
                 <h2 className="text-4xl font-bold text-center mb-2">
                     Why choose us?
                 </h2>
@@ -20,7 +20,7 @@ function WhyChooseUs() {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. A
                     libero tempora, inventore
                 </p>
-                <div className="flex justify-center">
+                <div className="flex justify-center flex-wrap lg:flex-nowrap">
                     <div className="flex flex-col p-3 w-80 text-center items-center">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"

@@ -3,11 +3,11 @@ import vegpicados1 from "../assets/imgVegetales/vegPicados1.png";
 import cebolla1 from "../assets/imgVegetales/cebolla1.png";
 function ContactUs() {
     return (
-        <div className="p-20 relative overflow-hidden" >
+        <div className="px-2 lg:px-20 relative overflow-hidden" >
             <img src={vegpicados1} className="absolute w-96 right-0 " />
             <img src={cebolla1} className="absolute w-96 -left-20 bottom-0 -rotate-90" />
-            <div className="flex justify-center gap-16">
-                <div className="max-w-xs  p-2 w-1/3">
+            <div className="flex justify-center gap-16 flex-col">
+                <div className="max-w-xs  p-2 lg:w-1/3">
                     <label className="form-control w-full max-w-xs">
                         <div className="label">
                             <span className="label-text">
