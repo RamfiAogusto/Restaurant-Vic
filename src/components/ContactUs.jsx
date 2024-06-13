@@ -3,7 +3,7 @@ import vegpicados1 from "../assets/imgVegetales/vegPicados1.png";
 import cebolla1 from "../assets/imgVegetales/cebolla1.png";
 function ContactUs() {
     return (
-        <div className="px-2 lg:px-20 relative overflow-hidden" >
+        <div className="px-2 py-20 lg:px-20 relative overflow-hidden" >
             <img src={vegpicados1} className="absolute -z-10 -right-60 w-96 lg:right-0 " />
             <img src={cebolla1} className="absolute w-96 -left-60 lg:-left-20 bottom-0 -rotate-90" />
             <div className="flex justify-center items-center gap-16 flex-col lg:flex-row">
@@ -13,6 +13,7 @@ function ContactUs() {
                             <span className="label-text">
                                 What is your email?
                             </span>
+                            
                         </div>
                         <input
                             type="mail"

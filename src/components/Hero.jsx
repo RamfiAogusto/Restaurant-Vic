@@ -23,7 +23,7 @@ function Hero() {
                             elit. Veritatis quo illum tempore nobis libero optio
                             dolore ducimus dicta itaque.
                         </p>
-                        <button className="btn btn-primary">Get Started</button>
+                        <button className="btn btn-primary">Have reservation</button>
                     </div>
                 </div>
             </div>

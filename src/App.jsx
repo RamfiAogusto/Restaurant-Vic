@@ -1,13 +1,32 @@
-import React from "react" 
-import Home from "./pages/Home"
-
+import React from "react";
+import Home from "./pages/Home";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+import Menu from "./pages/Menu";
+import Nav from "./components/Nav";
+import MenuBurger from "./pages/MenuBurger";
+import MenuMeats from "./pages/MenuMeats";
+import MenuPizza from "./pages/MenuPizza";
+import MenuPasta from "./pages/MenuPasta";
+import MenuSalads from "./pages/MenuSalads";
+import AboutUs from "./pages/AboutUs";
 
 function App() {
-  return (
-    <div>
-      <Home />
-    </div>
-  )
+    return (
+        <BrowserRouter>
+            <Nav />
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/Menu" element={<Menu />} />
+                <Route path="/Menu/Burger" element={<MenuBurger />} />
+                <Route path="/Menu/Meats" element={<MenuMeats />} />
+                <Route path="/Menu/Pizza" element={<MenuPizza />} />
+                <Route path="/Menu/Pasta" element={<MenuPasta />} />
+                <Route path="/Menu/Salads" element={<MenuSalads />} />
+                <Route path="/About-Us" element={<AboutUs />} />
+
+            </Routes>
+        </BrowserRouter>
+    );
 }
 
-export default App
+export default App;

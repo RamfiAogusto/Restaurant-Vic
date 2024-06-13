@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Nav() {
     return (
@@ -30,18 +31,16 @@ function Nav() {
                             tabIndex={0}
                             className="menu menu-sm dropdown-content mt-3 z-[1] shadow bg-base-100 rounded-box w-52"
                         >
-                            <li>
-                                <a>Home</a>
+                            <li className="">
+                                <Link to={"/"}>Home</Link>
                             </li>
                             <li>
-                                <a>Menu</a>
+                                <Link to={"/Menu"}>Menu</Link>
                             </li>
                             <li>
-                                <a>About us</a>
+                                <Link to={"/About-Us"}>About us</Link>
                             </li>
-                            <li>
-                                <a>Contact</a>
-                            </li>
+                            
                         </ul>
                     </div>
                     <a href="/">Restaurant Vic</a>
@@ -49,17 +48,15 @@ function Nav() {
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu font-medium text-lg menu-horizontal px-1">
                         <li>
-                            <a>Home</a>
+                            <Link to={"/"}>Home</Link>
                         </li>
                         <li>
-                            <a>Menu</a>
+                            <Link to={"/Menu"}>Menu</Link>
                         </li>
                         <li>
-                            <a>About us</a>
+                            <Link to={"/About-Us"}>About us</Link>
                         </li>
-                        <li>
-                            <a>Contact</a>
-                        </li>
+                        
                     </ul>
                 </div>
             </div>

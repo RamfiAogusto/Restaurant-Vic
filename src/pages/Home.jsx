@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../components/Hero";
-import Nav from "../components/Nav";
+
 import MenuHome from "../components/MenuHome";
 import ReservationHome from "../components/ReservationHome";
 import TopList from "../components/TopList";
@@ -13,7 +13,7 @@ function Home() {
     return (
         <div className="relative overflow-hidden">
             
-            <Nav />
+            
             <Hero />
             <TopList />
             <MenuHome />
