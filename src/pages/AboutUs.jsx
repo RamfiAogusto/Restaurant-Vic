@@ -6,7 +6,7 @@ import ContactUs from "../components/ContactUs";
 
 function AboutUs() {
     return (
-        <div>
+        <div className="overflow-hidden">
             <Opinions />
             <WhyChooseUs />
             <ContactUs />
