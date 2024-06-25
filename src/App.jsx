@@ -9,10 +9,12 @@ import MenuPizza from "./pages/MenuPizza";
 import MenuPasta from "./pages/MenuPasta";
 import MenuSalads from "./pages/MenuSalads";
 import AboutUs from "./pages/AboutUs";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
     return (
         <BrowserRouter>
+        <ScrollToTop />
             <Nav />
             <Routes>
                 <Route path="/" element={<Home />} />
