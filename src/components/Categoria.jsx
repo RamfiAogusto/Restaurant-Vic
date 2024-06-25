@@ -10,7 +10,7 @@ function Categoria({ category, link }) {
                 backgroundImage: `url(${imgfondo})`,
                 backgroundSize: "cover",
             }}
-            className="h-40 w-full rounded-lg font-extrabold text-3xl"
+            className="h-40 min-w-80 sm:min-w-[600px] max-w-[500px] rounded-lg font-extrabold text-3xl overflow-hidden"
         >
             <div className="h-full w-full p-5 flex items-center justify-end bg-gradient-to-l from-black to-transparent">
                 {category}

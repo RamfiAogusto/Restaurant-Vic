@@ -23,6 +23,7 @@ function App() {
                 <Route path="/Menu/Pasta" element={<MenuPasta />} />
                 <Route path="/Menu/Salads" element={<MenuSalads />} />
                 <Route path="/About-Us" element={<AboutUs />} />
+                <Route path="/*" element={<h2 className="p-20 text-4xl">Que anda buscando? 🤔</h2>} />
 
             </Routes>
         </BrowserRouter>

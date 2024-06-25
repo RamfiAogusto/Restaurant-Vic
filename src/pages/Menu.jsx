@@ -1,7 +1,7 @@
 import React from "react";
 import Recomendados from "../components/Recomendados";
 import Categorias from "../components/Categorias";
-import { Route, Routes } from "react-router-dom";
+
 
 function Menu() {
     return (
