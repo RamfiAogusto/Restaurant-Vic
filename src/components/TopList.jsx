@@ -29,15 +29,15 @@ function TopList() {
         <motion.div className="flex flex-col items-center px-20 py-24">
             <h2 className="text-5xl font-bold mb-7">Top List</h2>
             <p className="max-w-screen-sm text-center">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Eveniet non debitis tempore culpa obcaecati quis labore nam
-                commodi laboriosam
+                Discover our most acclaimed dishes, creations that have
+                conquered palates and become favorites among our diners. A
+                selection that reflects the essence of our cuisine.
             </p>
             <div className="relative">
-                <motion.div 
-                    className="flex justify-center py-11 gap-6" 
+                <motion.div
+                    className="flex justify-center py-11 gap-6"
                     drag={isMobile ? "x" : false}
-                    dragConstraints={isMobile ? {left: -300, right: 300} : {}}
+                    dragConstraints={isMobile ? { left: -300, right: 300 } : {}}
                 >
                     <CardPlate precio="" img={platecarne} />
                     <CardPlate precio="" />

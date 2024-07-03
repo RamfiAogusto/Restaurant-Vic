@@ -3,27 +3,25 @@ import back from "../assets/food-back.jpg";
 function Hero() {
     return (
         <div className="relative">
-            
             <div
-                className="hero min-h-screen justify-start px-8 lg:px-20"
+                className="hero min-h-screen justify-start px-8 lg:px-20 bg-[-470px] lg:bg-center"
                 style={{
                     backgroundImage: `url(${back})`,
                 }}
             >
-                <div className="hero-content text-left text-neutral-content">
+                <div className="hero-content text-left text-neutral-content ">
                     <div className="max-w-md">
                         <h1 className="mb-5 text-6xl font-bold">
-                            Hello there this is my title
+                            Flavors that Awaken Passions
                         </h1>
                         <p className="mb-5">
-                            Provident cupiditate voluptatem et in. Quaerat
-                            fugiat ut assumenda excepturi exercitationem quasi.
-                            In deleniti eaque aut repudiandae et a id nisi.
-                            Lorem, ipsum dolor sit amet consectetur adipisicing
-                            elit. Veritatis quo illum tempore nobis libero optio
-                            dolore ducimus dicta itaque.
+                            Welcome to a unique culinary experience where every
+                            dish tells a story. Immerse yourself in a world of
+                            exquisite flavors and a cozy atmosphere.
                         </p>
-                        <button className="btn btn-primary">Have reservation</button>
+                        <button className="btn btn-primary">
+                            Have reservation
+                        </button>
                     </div>
                 </div>
             </div>

@@ -27,7 +27,7 @@ function Recomendados() {
     return (
         <div>
             <motion.div className="w-full flex flex-col items-center sm:px-20 py-24">
-                <h2 className="text-4xl font-bold  text-start mb-7 sm:text-center sm:text-5xl text-wrap">Platos recomendados</h2>
+                <h2 className="text-4xl font-bold  text-start mb-7 sm:text-center sm:text-5xl text-wrap">Recommended dishes</h2>
                 
                 <div className="relative">
                     <motion.div

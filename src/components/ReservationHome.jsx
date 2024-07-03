@@ -4,7 +4,6 @@ import cebolla1 from "../assets/imgVegetales/cebolla1.png";
 import tomate1 from "../assets/imgVegetales/tomate1.png";
 import vegpicados1 from "../assets/imgVegetales/vegpicados2.png";
 
-
 function ReservationHome() {
     return (
         <div className="relative overflow-visible lg:px-20">
@@ -28,9 +27,9 @@ function ReservationHome() {
                             Do you have any dinner plan today? Reserve you table
                         </h1>
                         <p className="py-6">
-                            Provident cupiditate voluptatem et in. Quaerat
-                            fugiat ut assumenda excepturi exercitationem quasi.
-                            In deleniti eaque aut repudiandae et a id nisi.
+                            Make your evening special. Book now and let us
+                            create unforgettable memories for you and your loved
+                            ones in a unique and welcoming environment.
                         </p>
                         <button className="btn btn-primary">
                             Have reservation
